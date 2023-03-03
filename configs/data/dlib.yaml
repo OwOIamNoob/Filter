@@ -1,0 +1,6 @@
+_target_: src.data.dlib_datamodule.DlibDataModule
+data_dir: ${paths.data_dir}
+batch_size: 10
+train_val_test_split: [560, 20, 20]
+num_workers: 0
+pin_memory: False
